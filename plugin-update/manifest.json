@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "version": "0.6.12.22",
-  "notes": "Aktualizačné obrazovky sú opravené podľa schváleného PiconHub dizajnu. Updater je skutočne fullscreen bez čiernych pásov po okrajoch a spodné červené/zelené tlačidlá používajú rovnaké pôvodné PiconHub assety a vizuálny štýl ako obrazovky PICONY a NASTAVENIA. Funkcia aktualizácie, SHA-256 kontrola, rollback a automatický reštart GUI zostávajú zachované.",
+  "version": "0.6.12.23",
+  "notes": "Aktualizačné UI je nanovo postavené priamo na plnohodnotnom PICONY podklade picons_fhd/hd_base.jpg. Odstránené sú vlastné updater body/footer vrstvy aj updater_header grafika z 0.6.12.22. Spodné tlačidlá používajú pôvodné PICONY red/green assety a ich natívne sloty. Bez prekryvacích záplat; bezpečná kontrola, SHA-256, rollback a automatický reštart GUI zostávajú zachované.",
   "files": [
     {
       "path": "release.py",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/release.py",
-      "sha256": "90e298ae0eecaf70005f17a66598112910d24f20063fa9926b059b55a6b123f3"
+      "sha256": "4046be32761dde39ccf23b5de3b2f820a75d22bddd7b030eaf9f69561a3046a3"
     },
     {
       "path": "update_ui.py",
       "url": "https://raw.githubusercontent.com/PiconHub-Warder/piconhub-server/main/plugin-update/files/update_ui.py",
-      "sha256": "bd8a341a8892d84d9c62c2afeeb397165ced23c5b65d184e900a671a9d2fce8c"
+      "sha256": "d12e9e868bfee9c43abd9dd470c6b747fcb4b38a4f8be22bb666068efd9390e9"
     }
   ]
 }
